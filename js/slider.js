@@ -1,6 +1,6 @@
 var thumbnails = document.getElementById("thumbnails")
 var imgs = thumbnails.getElementsByTagName("img")
-var main = document.getElementById("main")
+var main = document.getElementById("featured")
 var counter=0;
 
 for(let i=0;i<imgs.length;i++){

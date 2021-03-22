@@ -266,7 +266,7 @@ p.country {
 
 
 
-#main, #thumbnails img {
+.main, #thumbnails img {
     border-radius: 10px;
   }
   
@@ -288,7 +288,7 @@ border: 1px solid grey;
 transform: scale(1.05);
 }
 
-#main {
+.main {
 /* width: 50%; */
 height: 400px;
 object-fit: cover;
@@ -297,7 +297,7 @@ margin: 20px auto;
 border: 1px solid grey;
 }
 @media only screen and (max-width: 480px) {
-    #main {
+    .main {
         width: 100%;
     }
 }
@@ -334,17 +334,17 @@ border: 1px solid grey;
 
 
 @media only screen and (max-width: 997px) {
-    #main {
+    .main {
         width: 353px;
     }
 }
 @media only screen and (max-width: 767px) {
-    #main {
+    .main {
         width: auto;
     }
 }
 @media only screen and (max-width: 445px) {
-    #main{
+    .main{
        width: -webkit-fill-available;
    }
 }
@@ -966,4 +966,21 @@ div#slider figure {
 }
 i.fas.fa-star {
   margin-top: 4px;
+}
+
+#img-container{
+	z-index: 1;
+	max-width: 500px;
+	position: relative;
+}
+
+#lens{
+	z-index: 2;
+	position: absolute;
+
+	height: 125px;
+	width: 125px;
+	border:2px solid black;
+	background-repeat: no-repeat;
+	cursor: none;
 }
