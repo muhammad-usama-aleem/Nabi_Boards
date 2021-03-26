@@ -398,13 +398,18 @@ body {
   
   .wrapper {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-flow: row;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 60px 0px;
   }
   
+@media screen and (max-width: 887px){
+  .wrapper{
+    justify-content: center;
+  }
+  }
   .wrapper-light {
     background: #F6F6F6;
   }

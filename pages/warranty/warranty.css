@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.w3-white, .w3-hover-white:hover {
+    color: #fdfdfd!important;
+    background-color: #1d4354!important;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 5rem;
+    padding: 5rem 0 !important;
+}
+main {
+    margin: 0 3rem;
+    margin-bottom: 5rem;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+ul .li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(0, 207, 62); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+p, .li {
+    font-size: 1.2rem;
+    color: #0C3C26;
+    line-height: 1.6;
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", "Hoefler Text", Georgia, "Lucida Bright", Cambria, Times, "Times New Roman", serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+div {
+  margin-bottom: 2rem;
+}

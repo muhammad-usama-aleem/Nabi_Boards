@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+
+    <link rel="stylesheet" href="./tracking.css" />
+    <link rel="stylesheet" href="../../Header/Navbar.css">
+    <link rel="stylesheet"  href="../../Footer/footer.css"/>
+    <link href="bar.css" rel="stylesheet" />    
+
+    <title>Tracking Info</title>
+  </head>
+  <body >
+
+    
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+      <a class="navbar-brand navbar-logo" href="#"><img src="./img/logo.png" alt="logo" width="60px" height="33px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+              <li class="nav-item">
+                  <a class="nav-link" href="../../cardpage.html"><i class="fas fa-home"></i></i>Store</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="#"><i class="fas fa-plane-departure"></i>Track Order</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../../Cart.html"><i class="fas fa-cart-plus"></i>Cart</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="../map/map.html"><i class="fas fa-phone"></i>Contact Us</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+              </li> -->
+          </ul>
+      </div>
+    </nav>
+
+    <main id="tracking_main">
+    <div>
+      <img id="shipping-header" src="./truck.jpg" alt="" />
+    </div>
+    <p id="order-title"><span>Order Number: 7XXXXXXXXXX</span></p>
+    <!-- <table id="loading-table">
+      <thead>
+        <tr id="loading">
+          <th class="status" scope="col"><span id="a1"></span></th>
+          <th class="status" scope="col"><span id="a2"></span></th>
+          <th class="status" scope="col"><span id="a3"></span></th>
+          <th class="status" scope="col"><span id="a4"></span></th>
+          <th class="status" scope="col"><span id="a5"></span></th>
+          <th class="status" scope="col"><span id="a6"></span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td >Shipment picked</td>
+          <td data-label="Due Date">Dispatched</td>
+          <td data-label="Amount">Arrived</td>
+          <td >Out for Delivery</td>
+          <td data-label="Due Date">Pending</td>
+          <td data-label="Amount">Delivered</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <div class="progress-bar-wrapper"></div>
+
+    <br />
+    <table  id="confirmed-details-table">
+      <thead  >
+        <tr id="details-status">
+          <th colspan="3" scope="col">Delivered</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr class="confirmed-status">
+          <td  >Signed for By:</td>
+          <td class="delivery-details" colspan="2" data-label="Due Date">
+            Gorsek Jan
+          </td>
+        </tr>
+        <tr class="confirmed-status">
+          <td scope="row" >Dated</td>
+          <td class="delivery-details" colspan="2" data-label="Due Date">
+            24 December 2020, 17:40
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+      </br>
+
+
+
+      <table id="Shipment-details-table" >
+      <thead  >
+        <tr >
+          <th colspan="3" scope="col">Shipment Detail :</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr >
+          <td  >Origin :</td>
+          <td  colspan="2" data-label="Due Date">
+            Gorsek Jan
+          </td>
+        </tr>
+        <tr >
+          <td scope="row" >Destination :</td>
+          <td  colspan="2" data-label="Due Date">
+            24 December 2020, 17:40
+          </td>
+        </tr>
+         <tr >
+          <td  >Shipper :</td>
+          <td  colspan="2" data-label="Due Date">
+            Gorsek Jan
+          </td>
+        </tr>
+         <tr >
+          <td  >Consignee :</td>
+          <td  colspan="2" data-label="Due Date">
+          
+          </td>
+        </tr>
+         <tr >
+          <td  >Reference No. :</td>
+          <td  colspan="2" data-label="Due Date">
+             0xxxx9xxx
+          </td>
+        </tr>
+         <tr >
+          <td  >Booking Date :</td>
+          <td  colspan="2" data-label="Due Date">
+           23 DEC 2020
+          </td>
+        </tr>
+         <tr >
+          <td  >Pieces :</td>
+          <td  colspan="2" data-label="Due Date">
+            1pcs
+          </td>
+        </tr>
+         <tr >
+          <td  >Weight :</td>
+          <td  colspan="2" data-label="Due Date">
+           20lb
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+   </br>
+
+      <table id="Shipment-details-table" >
+      <thead  >
+        <tr >
+          <th  id="time" scope="col">Day/Time</th>
+           <th   id="time-status" colspan="2" scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr >
+          <td  >24 December, 2020 17:40</td>
+          <td  class="delivery-details" colspan="2" data-label="Due Date">
+            Delivered to ( ASIF - RECEPTIONIST/ DISPATCH )
+          </td>
+        </tr>
+        <tr >
+          <td scope="row" >24 December, 2020 17:40</td>
+          <td  class="delivery-details" colspan="2" data-label="Due Date">
+            Out for Delivery in DASKA - Facility Center
+          </td>
+        </tr>
+         <tr >
+          <td  >24 December, 2020 17:40</td>
+          <td  class="delivery-details"  colspan="2" data-label="Due Date">
+           Pending in DASKA - Facility Center (RESCHEDULED FOR NEXT DAY DELIVERY)
+          </td>
+        </tr>
+         <tr >
+          <td  >24 December, 2020 17:40</td>
+          <td  class="delivery-details"  colspan="2" data-label="Due Date">
+            Gorsek Jan
+          </td>
+        </tr>
+         <tr >
+          <td  >24 December, 2020 17:40</td>
+          <td  class="delivery-details" colspan="2" data-label="Due Date">
+            Arrived in DASKA - Facility Center
+          </td>
+        </tr>
+         <tr >
+          <td  >24 December, 2020 17:40</td>
+          <td  class="delivery-details"  colspan="2" data-label="Due Date">
+            Dispatched to DASKA at LAHORE - Facility Center
+          </td>
+        </tr>
+         
+      </tbody>
+    </table>
+  </main>
+
+
+  <!-- Below is the footer -->
+   <footer>
+      <div id="footer-parent">
+        <!-- Get Help -->
+        <div class="footer-item">
+          <p>GET HELP</p>
+          <a href="./pages/shipping/shipping.html">Shipping</a>
+          <a href="./pages/warranty/warranty.html">Warranty and Return</a>
+        </div>
+        <!-- Get Learn More -->
+        <div class="footer-item">
+          <p>LEARN MORE</p>
+          <a href="./pages/about/about.html">About us</a>
+          <a href="./pages/payment/payment.html">Payment Option</a>
+          <a href="./pages/buy/buy.html">How to Buy</a>
+        </div>
+        <!-- Get in Touch -->
+        <div class="footer-item">
+          <p>GET IN TOUCH</p>
+          <a href="./pages/map/map.html">Contact us</a>
+          <a href="./pages/map/map.html">Map</a>
+        </div>
+      </div>
+      <div>
+        <div id="logos-container">
+              <div class="left_flex">
+                <img src="../../Footer/paypal.svg" alt="PayPal" />
+                <img src="../../Footer/visa.svg" alt="VISA" />
+                <img src="../../Footer/stripe.svg" alt="VISA" />
+              </div>
+              <div class="right_flex">
+                <img src="../../Footer/dhl.svg" alt="VISA" />
+                <img id="eurosender" src="../../Footer/eurosender.png" alt="eurosender /">
+                <img src="../../Footer/dpd.svg" alt="VISA" />
+              </div>
+                <img class="center_flex" src="../../Footer/mastercard.svg" alt="MasterCard" />
+        </div>
+        
+        <img class="center_block" src="../../Footer/mastercard.svg" alt="MasterCard" />
+      </div>
+      <div id="copy-right">
+        <p>© 2019-2020 All Rights Reserved.</p>
+
+        <a href="https://wa.me/923073386929"
+          ><img src="../../Footer/whatsapp.svg" alt="WhatsApp" id="whatsapp"
+        /></a>
+      </div>
+    </footer>
+
+
+
+    <script src="bar.js"></script>
+    <script>
+        ProgressBar.singleStepAnimation = 1500;
+            ProgressBar.init(
+            [ 'Ordered',
+                'Ready To Ship',
+                'In Transit',
+                'Out For Delivery',
+                'Delivered'
+            ],
+            'Hired Professional',
+            'progress-bar-wrapper' // created this optional parameter for container name (otherwise default container created)
+            );
+    </script>
+    
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="../../Header/navbar.js" type="text/javascript" ></script>
+  <script type="text/javascript" src="../../Header/bootstrap.min.js"></script>
+
+  </body>
+</html>

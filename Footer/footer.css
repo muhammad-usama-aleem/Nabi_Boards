@@ -1,0 +1,97 @@
+#footer-parent {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  background-color: #1d4354;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.footer-item > p:first-child {
+  color: #2f9e01;
+  font-size: 1.2rem;
+  padding: 8px 0px;
+  font-weight: bold;
+}
+#logos-container {
+  display: flex;
+  justify-content: space-around;
+}
+#logos-container img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+#logos-container svg
+{
+ width: 100px;
+  height: 100px;
+}
+img.center_block {
+  display: none;
+}
+@media screen and (max-width: 875px) {
+  #logos-container img {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 745px) {
+  #logos-container img {
+    width: 70px;
+  }
+  .left_flex, .right_flex{
+    display: flex;
+    flex-direction: column;
+  }
+  img.center_flex {
+    display: none;
+  }
+  img.center_block {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+#copy-right {
+  text-align: center;
+}
+.footer-item > a:not(:first-child) {
+  display: block;
+  width: max-content;
+  padding: 8px 8px;
+  margin: 8px 0px;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.footer-item > a:not(:first-child):hover {
+  /* border: black solid 1px; */
+  border-radius: 3px;
+  /* box-shadow: 0 8px 6px -6px black; */
+  text-align: left;
+  color: #06e80d;
+  background-color: #115573;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+#whatsapp {
+  /* height: 1.5rem; */
+  width: 3.5rem;
+  position: fixed;
+  border-radius: 50%;
+  /*box-shadow: 3px 3px 5px 6px #ccc;*/
+  bottom: 0.8rem;
+  right: 0.8rem;
+  transition: all 0.3s;
+}
+#whatsapp:hover {
+  transform: translateY(-0.6rem);
+}
+#eurosender
+{
+  object-fit: contain;
+}

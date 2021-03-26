@@ -442,3 +442,43 @@ button.btn.btn-primary.btn-md.my-0.p.custom_color:hover {
     padding: 0 1rem;
   }
 }
+main {
+  position: relative;
+}
+aside {
+  float: right;
+  position: absolute;
+  right: 0;
+}
+.summary {
+  position: absolute;
+  width: 221px !important;
+}
+@media screen and (max-width: 640px){
+  aside, .basket, .summary, .item, .remove {
+      width: 100%;
+  }
+  aside {
+    float: right;
+    position: relative;
+    width: 30%;
+  }
+  .summary, .item, .remove {
+    width: 100%;
+  }
+  .summary {
+    background-color: #eee;
+    border: 1px solid #aaa;
+    padding: 1rem;
+    position: fixed;
+    width: 250px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .summary {
+    margin-top: 1.25rem;
+    position: relative;
+  }
+}

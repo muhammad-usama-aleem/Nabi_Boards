@@ -1,0 +1,26 @@
+#location {
+  text-align: center;
+}
+#Location-Details-Container {
+  margin-left: 3rem;
+}
+.icon-space {
+  margin-right: 0.5rem;
+}
+.Location-Details-Style {
+  margin-left: 2rem;
+}
+hr {
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 50%;
+}
+#map iframe {
+  width: 70%;
+  height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
