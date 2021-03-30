@@ -270,6 +270,7 @@
     {
         width: 100%;
     }
-
-
+}
+.checkout_img{
+  object-fit: scale-down;
 }

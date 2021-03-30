@@ -1,0 +1,18 @@
+.modal-header.custom_header {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color: #616161;
+}
+.modal_body_text_area {
+    background-color: #dbf7ff;
+    padding: 1rem 2rem;
+}
+h4.modal_body_heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+

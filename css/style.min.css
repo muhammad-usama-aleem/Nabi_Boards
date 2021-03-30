@@ -237,8 +237,9 @@ margin-bottom: 40px;
   display: flex;
 }
 img.star {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
+  margin-top: 14px;
 }
 .reviews {
     border: 1px solid #0000002e;
@@ -988,4 +989,13 @@ i.fas.fa-star {
 	border:2px solid black;
 	background-repeat: no-repeat;
 	cursor: none;
+}
+.hori-selector{
+  height: 114px !important;
+}
+.cart_page,  .tracking_page, .contact_page{
+  display: none;
+}
+.main_page{
+  display: block;
 }
