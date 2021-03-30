@@ -16,6 +16,11 @@
   </head>
   <body>
     <header></header>
+
+    	<!-- <div id="preloader">
+        <img src="./preloader.gif" alt="Preloader">
+      </div> -->
+
     <main>
       <section>
         <h2 id="location">LOCATION</h2>
@@ -40,6 +45,7 @@
       </section>
       <section>
         <div id="map">
+          <img id="loader" src="./preloader.gif" alt="Preloader">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.581679010318!2d15.041450514877702!3d46.55596136795267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ff165e3858ad5%3A0xd300a6c01f1a21f7!2s%C5%A0entjan%C5%BE%20pri%20Dravogradu%201%2C%202373%20%C5%A0entjan%C5%BE%20pri%20Dravogradu%2C%20Slovenia!5e0!3m2!1sen!2s!4v1615720881372!5m2!1sen!2s"
             style="border: 0"
@@ -50,5 +56,14 @@
       </section>
     </main>
     <footer></footer>
+    <script>
+      window.onload = function fadeOutEffect() {
+      var fadeTarget = document.getElementById("map");
+      var loader = document.getElementById("loader");
+        var fadeEffect = setInterval(function () {
+          loader.style.display = "none"
+        }, 500);
+      }
+    </script>
   </body>
 </html>

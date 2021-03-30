@@ -3,6 +3,7 @@
 }
 #Location-Details-Container {
   margin-left: 3rem;
+  margin-bottom: 2rem;
 }
 .icon-space {
   margin-right: 0.5rem;
@@ -23,4 +24,20 @@ hr {
   margin-right: auto;
   margin-bottom: 2rem;
   margin-top: 0;
+}
+
+  /* preloader */
+  #map  {
+    display: block;
+    background-color: #fff;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 1100;
+}
+
+#map > img {
+    left: 47%;
+    position: absolute;
+    top: 40%;
 }
